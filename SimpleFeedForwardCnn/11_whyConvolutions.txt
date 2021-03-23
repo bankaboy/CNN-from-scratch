@@ -1,0 +1,18 @@
+1. WHY CONVOLUTIONS
+
+* let 32x32x3 input images, apply 6 filters, 28x28x6
+* layer1 = 3072 neurons, layer2 = 4704 neurons
+* if do as regular forward neural network, then 3072x4704 = 17 million parameters 
+  in just first 2 layers
+* in convolution network, parameters is (5x5+1)x6 ((filter+bias)xnumber of filters)
+  = 156 parameters 
+
+ - parameter sharing 
+    * a feature detector that is useful in one part of image is probably useful in 
+    another part of image
+ - sparsity of connections
+    * in each layer, each output value depends only on a small number of inputs
+      ex : top left pixel of convMap is dependent on only top left 9 pixels of 
+      original image
+
+    
