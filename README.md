@@ -1,2 +1,2 @@
 # CnnPractice
-Learning about implementation of CNNs and developing one from scratch without libraries
+Learning about implementations of different CNNs and developing them from scratch without libraries
